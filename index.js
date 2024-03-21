@@ -129,8 +129,9 @@ const carrito = document.querySelector(".carrito");
 
 carrito.addEventListener("click", () => {
   const cartDiv = document.querySelector(".cart");
+  const body$$ = document.body
   cartDiv.classList.toggle("openned");
-});
+  body$$.classList.toggle("openned");})
 
 
 const cart = document.querySelector(".cart");
